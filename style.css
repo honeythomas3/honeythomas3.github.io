@@ -10,6 +10,12 @@ body {
   font-size: 50px;
   text-shadow: 2px 2px 2px rosybrown;
 }
+.recipe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0px;
+}
 
 .ing {
   text-align: left;
@@ -21,8 +27,7 @@ body {
 
 .item {
   display: flex;
-
-  align-items: flex-start;
+  flex-direction: row;
   margin-bottom: 0px;
 }
 .dishtext {
@@ -77,6 +82,12 @@ main {
   align-items: flex-start;
   justify-content: space-between;
   padding: 10px;
+  background-image: url(images/background.avif);
+  background-size: cover;
+  background-position: left;
+  background-repeat: round;
+}
+.main2 {
   background-image: url(images/background.avif);
   background-size: cover;
   background-position: left;
