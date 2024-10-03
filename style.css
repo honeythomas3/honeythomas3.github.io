@@ -1,0 +1,118 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+.headingdeco {
+  font-family: cursive;
+  font-size: 50px;
+  text-shadow: 2px 2px 2px rosybrown;
+}
+
+.ing {
+  text-align: left;
+  color: white;
+}
+
+.item {
+  display: flex;
+
+  align-items: flex-start;
+  margin-bottom: 0px;
+}
+.dishtext {
+  max-width: 600px;
+  padding: 20px;
+}
+a {
+  color: antiquewhite;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  border: white solid 5px;
+}
+
+header {
+  margin: 0%;
+  background-color: black;
+  color: white;
+  padding: 0px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rosybrown;
+}
+
+nav li {
+  margin: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+li {
+  display: block;
+  list-style-type: none;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 10px;
+  background-image: url(images/background.avif);
+  background-size: cover;
+  background-position: left;
+  background-repeat: round;
+}
+
+.dishes {
+  background-color: transparent;
+  padding: 10px;
+  max-width: 100%;
+  flex: 4;
+}
+
+p,
+h2,
+h3 {
+  color: white;
+}
+
+.searchbar {
+  background-color: black;
+  padding: 10px;
+  border: 1px solid white;
+  max-width: 100%;
+  flex: 1;
+  margin-top: 37px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  main {
+    flex-direction: column;
+  }
+  .searchbar {
+    width: 46%;
+  }
+}
